@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Xap Comics",
+    "slug": "XapComics",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/xapLogo.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/xapLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.isaacwayne.xapcomics"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "27cd4f0d-7c47-409e-8ab8-6d5e919a3487"
+      }
+    }
+  }
+}
